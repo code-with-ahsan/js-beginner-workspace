@@ -32,7 +32,9 @@ myVar = "it is a string";
 // Operators
 
 // = assignment, + add, - subtract, * multiply, / divide
-const number1 = prompt("Enter first number");
-const number2 = prompt("Enter second number");
+let number1 = prompt("Enter first number");
+number1 = parseInt(number1);
+let number2 = prompt("Enter second number");
+number2 = parseInt(number2);
 const result = number1 + number2;
-console.log(result);
+alert(result);
