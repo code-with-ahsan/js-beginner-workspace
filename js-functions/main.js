@@ -7,19 +7,29 @@ number2 = parseInt(number2);
 
 // + add, - subtract, * multiply, / divide
 
-function sum(firstNumber, secondNumber) {
-  const result = firstNumber + secondNumber;
-  return result;
-}
-
-const sumES6 = (firstNumber, secondNumber) => {
+const sum = (firstNumber, secondNumber) => {
   const result = firstNumber + secondNumber;
   return result;
 };
 
+const subtract = (firstNumber, secondNumber) => {
+  const result = firstNumber - secondNumber;
+  return result;
+};
+
+const multiply = (firstNumber, secondNumber) => {
+  const result = firstNumber * secondNumber;
+  return result;
+};
+
+const divide = (firstNumber, secondNumber) => {
+  const result = firstNumber / secondNumber;
+  return result;
+};
+
 // <function-name> use `()`
-const output = sumES6(number1, number2);
-console.log(output);
+const output = subtract(number1, number2);
+document.write(output);
 
 // a function can get parameters/arguments/inputs
 // a function can also return outputs
