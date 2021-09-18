@@ -57,6 +57,35 @@ const author1 = {
   },
 };
 
+const author2 = {
+  name: "Nazish",
+  age: 16,
+  books: [],
+  residence: {},
+  designation: "Software Archicet",
+  email: "abc@xyz.com",
+  password: "1234",
+  greeting() {
+    console.log(`Hello ${this.name}`);
+  },
+  login() {
+    console.log("Author logged in");
+    this.greeting();
+  },
+  logout() {
+    console.log("Author logged out");
+  },
+  createPost() {
+    console.log("Post created");
+  },
+  deletePost() {
+    console.log("Post deleted");
+  },
+  updatePost() {
+    console.log("Post update");
+  },
+};
+
 const basket1 = {
   items: 10,
   color: "black",

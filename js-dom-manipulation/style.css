@@ -1,0 +1,71 @@
+:root {
+  --primary: #d10e61;
+}
+.main {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.content .menu,
+.content .cart {
+  min-width: 50%;
+  margin: 0 8px;
+}
+
+.content .menu .list-group .list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .menu .list-group .list-group-item:hover {
+  background-color: #333;
+  color: white;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+.content .cart {
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  padding: 0 20px 20px 20px;
+}
+
+.cart-item-primary {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cart-item-primary .cart-item-title {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.cart-list-group-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 30px;
+}
+
+.cart-list-group-item .actions {
+  display: flex;
+  justify-content: space-around;
+  width: 70px;
+  margin-top: 16px;
+  cursor: pointer;
+  height: 40px;
+  align-items: center;
+}
+
+.cart-list-group-item .actions:hover {
+  box-shadow: 0 2px 16px 0 rgb(0 0 0 / 8%);
+}
