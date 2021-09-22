@@ -33,9 +33,27 @@
 }
 
 .content .cart {
+  width: 250px;
+}
+
+.content .cart .cart-inner {
+  height: 360px;
   border: 1px solid #dcdcdc;
   border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content .cart .cart-list {
+  max-height: 360px;
+  overflow-y: auto;
   padding: 0 20px 20px 20px;
+  flex: 1;
+}
+
+.content .cart .cart-total {
+  padding: 10px 20px;
+  text-align: right;
 }
 
 .cart-item-primary {
